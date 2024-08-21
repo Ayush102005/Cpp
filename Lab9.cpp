@@ -13,7 +13,7 @@ int main(void)
     }
     catch(logic_error& e)
     {
-        cout<<"Processing error"<<endl<<e.what()<<"occured.\n";
+        cout<<"Processing error"<<endl<<e.what()<<" occured.\n";
     }
     return 0;
 }
